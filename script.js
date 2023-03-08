@@ -35,7 +35,6 @@ function setResolution(input) {
       {pixels.forEach((boxItem) => {
       {boxItem.classList.remove('pixelColored')}});};
   });
-  console.log(pixels);
  }
 
 
