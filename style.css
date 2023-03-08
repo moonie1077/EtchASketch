@@ -1,0 +1,28 @@
+.pixel{
+height: 60px;
+width: 60px;
+background:gray;
+padding: 0px;
+}
+
+.container{
+display: flex;
+width: 960px;
+height: 960px;
+padding: 0px;
+margin: 0px;
+flex-direction: column;
+
+}
+.row{
+display:flex;
+height: 60px;
+width: auto;
+padding: 0px;
+margin: 0px;
+}
+
+body{
+margin: 0px;
+display: flex;
+}
