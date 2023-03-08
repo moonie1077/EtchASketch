@@ -4,6 +4,9 @@ width: 60px;
 background:gray;
 padding: 0px;
 }
+.pixelColored{
+background:black;
+}
 
 .container{
 display: flex;
@@ -12,8 +15,8 @@ height: 960px;
 padding: 0px;
 margin: 0px;
 flex-direction: column;
-
 }
+
 .row{
 display:flex;
 height: 60px;
@@ -26,3 +29,4 @@ body{
 margin: 0px;
 display: flex;
 }
+

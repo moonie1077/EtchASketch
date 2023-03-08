@@ -13,3 +13,16 @@ for (let i= 0; i<16; i++) {
       row.appendChild(pixel);
       }
   }
+
+const pixels = document.querySelectorAll(".pixel")
+pixels.forEach((boxItem) => {
+    boxItem.addEventListener("mouseover",
+    function() {boxItem.classList.add('pixelColored')});
+});
+console.log(pixels);
+document.addEventListener("keydown",(event) => {
+console.log(event);
+if (event.shiftkey = true)
+    {pixels.forEach((boxItem) => {
+    {boxItem.classList.remove('pixelColored')}});}
+} );
