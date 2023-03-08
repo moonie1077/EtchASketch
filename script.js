@@ -13,7 +13,7 @@ for (let i= 0; i<16; i++) {
       row.appendChild(pixel);
       }
   }
-
+//comment
 const pixels = document.querySelectorAll(".pixel")
 pixels.forEach((boxItem) => {
     boxItem.addEventListener("mouseover",
